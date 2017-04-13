@@ -29,30 +29,23 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
-  - jekyll-pages-directory
-  - jekyll-portfolio-generator
+
 
 exclude:
   - Gemfile
   - Gemfile.lock
 
 defaults:
-  -
-    scope:
+  -  scope:
       path: ""
       type: "posts"
-    values:
       layout: "default"
-  -
-    scope:
+  -   scope:
       path: "projects"
       type: "pages" # previously `page` in Jekyll 2.2.
-    values:
       layout: "project"
-  -
-      scope:
+  -   scope:
       path: "assets/img"
-    values:
       image: true
 
 
