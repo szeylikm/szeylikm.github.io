@@ -31,7 +31,7 @@ gems:
   - jekyll-feed
   - jekyll-pages-directory
   - jekyll-portfolio-generator
-  
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -49,7 +49,6 @@ defaults:
       type: "pages" # previously `page` in Jekyll 2.2.
     values:
       layout: "project"
-
   -
       scope:
       path: "assets/img"
