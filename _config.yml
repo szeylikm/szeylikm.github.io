@@ -39,7 +39,7 @@ defaults:
       type: "posts"
       layout: "default"
   -   scope:
-      path: ""
+      path: "projects"
       type: "pages" # previously `page` in Jekyll 2.2.
       layout: "project"
   -   scope:
