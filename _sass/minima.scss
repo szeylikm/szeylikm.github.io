@@ -2,7 +2,7 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Didot LT STD", Hoefler Text, Garamond, serif !default;
+$base-font-family: "Lucida Bright", Palatino, Garamond, serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -10,9 +10,9 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$text-color:       #20b2aa !default; //seafoam green
+$background-color: #f5f5f5 !default;
+$brand-color:      #ff4040 !default; //bright pink
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
