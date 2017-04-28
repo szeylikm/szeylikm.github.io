@@ -38,10 +38,3 @@ defaults:
       path: ""
       type: "posts"
       layout: "default"
-  -   scope:
-      path: "projects"
-      type: "pages" # previously `page` in Jekyll 2.2.
-      layout: "project"
-  -   scope:
-      path: "assets/img"
-      image: true
