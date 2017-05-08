@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "description": "The portfolio website of Sofya Zeylikman",
+  "main": "index.html",
+  "authors": [
+    "Sofya Zeylikman"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/szeylikm/szeylikm.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bourbon": "^4.3.4",
+    "susy": "^2.2.12",
+    "normalize-css": "^6.0.0",
+    "jquery-backstretch": "^2.1.15"
+  }
+}
