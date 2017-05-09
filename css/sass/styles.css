@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Karla|Molengo|Old+Standard+TT|Raleway|Slabo+27px");
 html {
   line-height: 1.15;
   /* 1 */
@@ -370,6 +371,32 @@ template {
   display: none; }
 
 /*Color Palette */
+body {
+  font-family: "Raleway", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Karla", sans-serif; }
+
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
+  border: 1px solid #bdbea9; }
+
+input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
+input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover {
+  border: 1px solid #d2ab99; }
+
+input[type="color"]:active, input[type="date"]:active, input[type="datetime"]:active, input[type="datetime-local"]:active, input[type="email"]:active, input[type="month"]:active, input[type="number"]:active, input[type="password"]:active, input[type="search"]:active, input[type="tel"]:active, input[type="text"]:active, input[type="time"]:active, input[type="url"]:active, input[type="week"]:active, input:not([type]):active, textarea:active {
+  border: 1px solid #d2ab99; }
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  background-color: #56876d; }
+
+button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus,
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+  background-color: #d2ab99; }
+
+button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
+  background-color: #bdbea9; }
+
 nav ul {
   list-style: none; }
 
@@ -382,7 +409,8 @@ nav a {
     color: #04724d; }
 
 .site-footer {
-  background: #d2ab99; }
+  background: #d2ab99;
+  text-align: center; }
 
 .social-menu a {
   color: #8db38b; }
@@ -397,7 +425,112 @@ nav a {
     content: "\f09b"; }
 
 .site-header {
-  background: #bdbea9; }
+  background: #bdbea9;
+  text-align: center; }
+
+.header-nav ul {
+  margin: 0;
+  padding: 0; }
 
 .header-nav a {
   color: #04724d; }
+
+.wrap {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+  .wrap:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+@media (min-width: 640px) {
+  .site-branding {
+    width: 23.80952%;
+    float: left;
+    margin-left: 0.59524%;
+    margin-right: 0.59524%; } }
+
+@media (min-width: 640px) {
+  .header-nav {
+    width: 73.80952%;
+    float: left;
+    margin-left: 0.59524%;
+    margin-right: 0.59524%;
+    padding-top: 40px; } }
+
+.features::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+@media (min-width: 640px) {
+  .features .feature {
+    width: 48.80952%;
+    float: left;
+    margin-left: 0.59524%;
+    margin-right: 0.59524%; } }
+
+@media (min-width: 960px) {
+  .features .feature {
+    width: 23.80952%;
+    float: left;
+    margin-left: 0.59524%;
+    margin-right: 0.59524%; } }
+
+@media (min-width: 960px) {
+  .content {
+    width: 32.14286%;
+    float: left;
+    margin-left: 0.59524%;
+    margin-right: 0.59524%; } }
+
+@media (min-width: 640px) {
+  .content {
+    width: 65.47619%;
+    float: left;
+    margin-left: 0.59524%;
+    margin-right: 0.59524%; } }
+
+@media (min-width: 960px) {
+  .sidebar {
+    width: 32.14286%;
+    float: left;
+    margin-left: 0.59524%;
+    margin-right: 0.59524%; } }
+
+@media (min-width: 640px) {
+  .sidebar .customer {
+    width: 23.80952%;
+    float: left;
+    margin-left: 0.59524%;
+    margin-right: 0.59524%;
+    padding-left: 25%;
+    padding-right: 25%; } }
+
+.hero .overlay {
+  background: rgba(210, 171, 153, 0.3); }
+
+.hero {
+  text-align: center; }
+
+.hero .wrap {
+  padding: 60px 0; }
+
+.feature img {
+  height: auto;
+  width: 100%; }
+
+.customer img {
+  height: auto;
+  width: 70%;
+  border-radius: 20px; }
+
+.testimonials {
+  background: #56876d;
+  text-align: center; }
+  .testimonials .name {
+    display: block; }
+  .testimonials .quote {
+    font-style: italic;
+    font-family: "Karla", sans-serif; }

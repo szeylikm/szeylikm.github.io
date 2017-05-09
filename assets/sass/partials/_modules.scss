@@ -1,0 +1,32 @@
+.hero .overlay {
+  background: rgba($pink, .3);
+}
+.hero {
+  text-align: center;
+}
+.hero .wrap {
+  padding: 60px 0;
+}
+.feature img{
+  @include size(100% auto);
+}
+.customer img{
+  @include size(70% auto);
+  border-radius: $default-border-radius;
+}
+
+.testimonials{
+  background: $green;
+  text-align: center;
+
+  .name{
+    display:block;
+  }
+
+  .quote{
+    font-style:italic;
+    font-family: $karla;
+    
+  }
+
+}
