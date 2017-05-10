@@ -372,10 +372,10 @@ template {
 
 /*Color Palette */
 body {
-  font-family: "Raleway", sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Karla", sans-serif; }
+  font-family: "Lora", serif; }
 
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
   border: 1px solid #bdbea9; }
