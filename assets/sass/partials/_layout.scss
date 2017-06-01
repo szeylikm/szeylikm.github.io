@@ -1,37 +1,34 @@
 //Susy set up
 $susy: (
-columns: 12,
+columns: 16,
 gutters: 1/6,
-global-box-sizing: border-box,
-gutter-position: split
+global-box-sizing: border-box-sizing,
+gutter-position: split,
+math: fluid,
 );
 
-.wrap{
-  @include container(80%);
-}
 
-.site-branding{
-  @include susy-breakpoint($medium){
-    @include span(3);
-  }
-}
-.header-nav{
-  @include susy-breakpoint($medium){
-    @include span(9);
-    padding-top: 40px
-}
-}
 .features{
   @include clearfix;
+  //padding-top: 20px;
+
 }
-.features .feature {
-  @include susy-breakpoint($medium){
+.features .card {
+  @include susy-breakpoint($xsmall){
+    @include span(8);
+  }
+  @include susy-breakpoint($small){
     @include span(6);
   }
-  @include susy-breakpoint($large) {
-    @include span (3);
+  @include susy-breakpoint($medium){
+    @include span(4);
   }
-
+  @include susy-breakpoint($large) {
+    @include span(2);
+  }
+@include susy-breakpoint($xlarge){
+  @include span(1);
+}
 }
 
 .content {
@@ -45,7 +42,7 @@ gutter-position: split
 }
 .sidebar {
   @include susy-breakpoint($large){
-  @include span(4);
+  @include span(2);
 }
 
 .customer{

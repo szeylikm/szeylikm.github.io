@@ -1,7 +1,5 @@
 jQuery(function ($) {
 
-
-
 /*
  * Backstretch
  * http://srobbin.com/jquery-plugins/backstretch/
@@ -1530,6 +1528,16 @@ jQuery(function ($) {
 }
 (jQuery, window));
 // Load Backstretch arguments
-$(".hero").backstretch("images/hero.jpg");
+$(".hero").backstretch(
+  ['images/hero.jpg',
+  'images/3-boys.jpg',
+  'images/bench.jpg',
+  'images/dovetail.jpg'
+],{duration:4000});
+
+
+
+
+
 
 });

@@ -1,3 +1,16 @@
+.cards{
+display:inline-block;
+padding-left:(15%);
+}
+
+.card {
+display:inline-flex;
+margin: 20px;
+position:relative;
+width:400px;
+min-width:300px;
+}
+
 .hero .overlay {
   background: rgba($pink, .3);
 }
@@ -26,7 +39,8 @@
   .quote{
     font-style:italic;
     font-family: $karla;
-    
+
   }
+
 
 }

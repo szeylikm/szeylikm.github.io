@@ -16,7 +16,27 @@ $roboto: 'Roboto', sans-serif;
 
 $default-border-radius: 20px;
 
+$xxsmall: 280px;
 $xsmall: 380px;
 $small: 480px;
 $medium: 640px;
 $large: 960px;
+$xlarge:1080px;
+
+$base-border-color: $beige;
+$base-border-radius: 3px;
+$base-line-height: 1.5em ;
+$base-background-color: $beige;
+$dark-gray: #333 !default;
+$large-screen: 53.75em !default;
+$base-font-color:$dark-green;
+$dropdown-color: $green;
+$dropdown-description-color: lighten($dropdown-color, 40%);
+$dropdown-border: $green;
+$dropdown-background: $green;
+$dropdown-background-hover: darken($dropdown-background, 3%);
+$dropdown-inner-border: 1px solid silver;
+$dropdown-height: 40px;
+$dropdown-padding: 1em;
+$dropdown-distance-from-menu: 50px;
+$dropdown-arrow-top-distance: 0;

@@ -2,7 +2,11 @@
 @import 'bower_components/normalize-css/normalize';
 @import 'bower_components/susy/sass/susy';
 @import url('https://fonts.googleapis.com/css?family=Karla|Molengo|Old+Standard+TT|Raleway|Slabo+27px');
-
+@import 'bower_components/compass-mixins/lib/compass';
+@import 'bower_components/neat/core/neat';
+@import 'bower_components/bitters/core/base';
+@import 'bower_components/compass-sass-mixins/lib/compass';
+@import 'bower_components/bootstrap/scss/bootstrap';
 
 @import 'partials/variables';
 @import 'partials/base';
@@ -10,3 +14,4 @@
 @import 'partials/header';
 @import 'partials/layout';
 @import 'partials/modules';
+@import 'partials/carousel';
