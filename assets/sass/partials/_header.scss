@@ -3,10 +3,11 @@
   width:(100%);
 }
 .navbar {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  padding: $navbar-padding-y $navbar-padding-x;
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  //overflow-x:auto;
+  //padding: $navbar-padding-y $navbar-padding-x;
   background-color: $beige;
 }
 .navbar-brand {
@@ -27,18 +28,20 @@
 }
 
 .navbar-nav {
-  display: flex;
+  display:flex;
   flex-direction: column; // cannot use `inherit` to get the `.navbar`s value
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  @include clearfix;
+
 
 
   .nav-link {
     padding-right: 0;
     padding-left: 0;
     color: black;
-
+    text-align:center;
     &:hover{
       color:$dark-green;
 
@@ -120,16 +123,16 @@
       }
 
       @include media-breakpoint-up($next) {
-        flex-direction: row;
-        flex-wrap: nowrap;
+        flex-direction:row;
+        //flex-wrap: nowrap;
         align-items: center;
 
         .navbar-nav {
           flex-direction: row;
 
           .nav-link {
-            padding-right: .5rem;
-            padding-left: .5rem;
+            //padding-right: .5rem;
+            //padding-left: .5rem;
           }
         }
 
